@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Rodrigo Escobar</title> <!--Título da pag. -->
+    <link rel="website icon" href="./img/LogoCorrícolo.png"><!--Logo pagina-->
+    <link rel="stylesheet" href="./Css/EstiloMobille.css" media="screen and (max-width: 767px)"> <!--Link do Css Mobille-->
+    <link rel="stylesheet" href="./Css/EstiloWeb.css" media="screen and (min-width: 768px)"> <!--Link do Css Web-->
+</head>
+<body>
+    <header class="navegaçãoMobile"> <!--Botões, nome e contato apenas em Mobile-->
+
+        <img id="FotoCell" src="./img/34.png" alt="Foto Rodrigo">
+
+        <div id="Botões">
+            <img class="HambuerguerIcon" id="HambuerguerIcon" onclick="Hamburguer()">
+            <button class="btnMob" onclick="Navegar('A')">Sobre mim</button>
+            <button class="btnMob" onclick="Navegar('B')">Situação atual</button>
+            <button class="btnMob" onclick="Navegar('C')">Certificados</button>
+            <button class="btnMob" onclick="Navegar('D')">Experiências</button>
+            <!--Botao curriculo--><a href="./curriculum.pdf" download style="text-decoration: none;"><button style="display: flex;" class="btnMob">Baixar CV<img class="ImgClick" src="./img/clique.png"></button></a>
+        </div>
+        
+        <div id="Infos">
+            <img class="HambuerguerIcon" id="HambuerguerIcon" src="./img/Hamburguer Open.png" onclick="Hamburguer()">
+            <p class="informações" style="font-size: 36px;">Rodrigo Escobar</p>
+            <p class="informações link" style="font-size: 25px; top: 50px;">
+            <!--Linkedin--><a href="https://www.linkedin.com/in/rodrigo-ro-escobar/" target="_blank"><img class="imgiconlink" style="vertical-align: middle;" src="./img/Icone de link.png" alt="IconLink"><u>Linkedin</u></a></p>
+            <a class="informações" style="font-size: 22px" href="https://wa.me/5511986120014?text=Olá, Rodrigo.">Celular: (11) 9 8612-0014</a>
+            <a class="informações" style="font-size: 22px" href="mailto:rodrigoegdfff@gmail.com?Subject=Hello%20again">E-mail: rodrigoegdff@gmail.com</a>
+            <p class="informações" style="font-size: 28px">19 ANOS</p>
+            <p class="informações">Última Atualização:05/2024</p>
+        </div>
+    </header>
+
+    <header class="navegacaoWeb"> <!--Botões apenas em Web-->
+        <button class="btn" onclick="Navegar('A')">Sobre mim</button>
+        <button class="btn" onclick="Navegar('B')">Situação atual</button>
+        <button class="btn" onclick="Navegar('C')">Certificados</button>
+        <button class="btn" onclick="Navegar('D')">Experiências</button>
+        <!--Botao curriculo--><a target="_blank" href="./curriculum.pdf" download class="btn" style="display: flex; text-decoration: none; align-items: center; text-align: center; vertical-align: middle; justify-content: center;">Baixar CV<img class="ImgClick" src="./img/clique.png"></a>
+    </header>
+    
+    <section class="conteudo"><!--Informações(nome e contatos) para WEB e todos os Textos-->
+
+        <div class="FotoEContato"> <!--Informações(nome e contatos) apenas em Web-->
+            <img id="FotoWeb" src="./img/34.png" alt="Foto Rodrigo">
+            <p class="informações" style="font-size: 48px;">Rodrigo Escobar</p>
+            <p class="informações link" style="font-size: 18px; top: 50px;">
+            <!--Linkedin--><img class="imgiconlink" style="vertical-align: middle;" src="./img/Icone de link.png" alt="IconLink"><a href="linkedin://profile/rodrigo-ro-escobar/" target="_blank"><u>Linkedin</u></a></p>
+            <a class="informações" style="font-size: 22px" href="https://wa.me/5511986120014?text=Olá, Rodrigo." target="_blank">Celular: (11) 9 8612-0014</a>
+            <a class="informações" style="font-size: 22px" href="mailto:rodrigoegdfff@gmail.com?Subject=Hello%20again" target="_blank">E-mail: rodrigoegdff@gmail.com</a>
+            <p class="informações" style="font-size: 32px">19 ANOS</p>
+            <p class="informações" style="margin-bottom: 100%;font-size: 25px">Última Atualização:05/2024</p>
+        </div>
+
+        <div class="textos">
+            <div class="A"> <!--Sobre mim-->
+                <p class="Titulo"><strong>Objetivo</strong></p>
+                <p class="Txt">
+                    <strong>
+                        Procuro uma oportunidade, cujo foco é evoluir meu conhecimento profissional. 
+                        Estou determinado a aprimorar minhas habilidades na área da tecnologia que 
+                        tanto me encanta. Meu interesse está em áreas de criação, onde a curiosidade 
+                        me intriga e desafios me motivam.
+                    </strong>
+                </p>
+                <p class="Titulo"><strong>Autoavaliação</strong></p>
+                <p class="Txt">
+                    <strong>
+                        Me considero um autodidata e um ótimo idealista, 
+                        já que sempre penso fora da caixa para resolver problemas simples e complexos.
+                        Em relação com pessoas, prezo o respeito, e dele que se começa qualquer coisa. 
+                        Quando se trata de liderança, reconheço a importância de compreender as habilidades 
+                        individuais da minha equipe.
+                    </strong>
+                </p>
+            </div>
+            <div class="B"> <!--Situação Atual-->
+                <p class="Titulo"><strong>Informações</strong></p>
+                <p class="Txt">
+                    <strong>
+                        Dispensa do serviço militar<br>Trabalhando: Não<br>CNH A e B<br>Residindo em Taboão da Serra
+                    </strong>
+                </p>
+                <p class="Titulo"><strong>Nível de ensino</strong></p>
+                <p class="Txt">
+                    <strong>
+                        Ensino Superior: Graduação em Engenharia de Software<br>Instituição: Uninter EAD<br>Ínicio: 02/2024 <br> Conclusão 12/2027
+                    </strong>
+                    <strong style="margin-top: 100px;">
+                        
+                    </strong>
+                </p>
+            </div>
+            <div class="C"> <!--Certificados-->
+                <p class="Titulo"><strong>Cursos</strong></p>
+                <p class="grid Txt ">
+                    <strong>
+                        <u style="font-size: 35px;">Unity 2D</u><br>Conclusão: Junho de 2018<br>Instituição: Happy  Code
+                    </strong><br>
+                    <strong>
+                        <u style="font-size: 35px;">AutoCad 2D</u><br>Conclusão: Junho de 2022<br>Instituição: Udemy
+                    </strong><br>
+                    <strong>
+                        <u style="font-size: 35px;">Modelagem Blender 3D</u><br>Conclusão Março de 2019<br>Instituição: Happy Code
+                    </strong><br>
+                    <strong>
+                        <u style="font-size: 35px;">Exel Básico ao avançado</u><br>Conclusão: Setembro de 2022<br>Instituição: Udemy
+                    </strong><br>
+                    <strong>
+                        <u style="font-size: 35px;">Arte Vetorial<br>Composição de imagens<br>Pintura Digital<br>Efeitos Visuais<br>Cenários Blender</u><br>Conclusão: Maio de 2024<br>Instituição: SAGA
+                    </strong>
+                </p>
+                <p class="Titulo"><strong>Experiências Adicionais</strong></p>
+                <p class="Txt">
+                    <strong>
+                        Cinema 4D; Sony Vegas Pro 13; VsCode; Photoshop; After Effects; Ilustrator; AutoCad e Blender; JS; Python; CSS5; HTML5
+                    </strong>
+                </p>
+            </div>
+            <div class="D"> <!--Experiências-->
+                <p class="Titulo"><strong>Fixos</strong></p>
+                <p class="Txt" style="display: flex;">
+                    <strong >
+                        Empresa: Nacional Comércio;<br>Segmento: Comércio / Importação<br>Porte da empresa: Pequena (-10 funcionários)<br>Data de início: 08/2019<br>Data de Término: 03/2020<br>Cargo: Controle de qualidade / estoquista<br>Atribuição: Organização do estoque; Conferência da importação; devolução e qualidade dos produtos
+                    </strong>
+                    <strong>
+                        Empresa: RDFexpress<br>Segmento: Transporte<br>Porte da empresa: Pequena (-10 funcionários)<br>Data de início: 08/2023<br>Cargo: Motorista<br>
+                    </strong>
+                </p>
+                <p class="Titulo"><strong>Temporários</strong></p>
+                <p class="grid Txt" style="display: flex;">
+                    <strong>
+                        Segmento: Alimentação<br>Data de atuação: 08/2022 - 04/2023<br>Cargo: Garçom
+                    </strong>
+                    <strong>
+                        Segmento: Engenharia<br>Data de atuação: 03/2022 - 12-2023<br>Cargo: Cadista
+                    </strong>
+                </p>
+            </div>
+        </div>
+    </section>
+    <div class="WppFlutuante"> <!--IconWpp-->
+        <div id="chat">
+          <time id="relogio" datetime="2023-04-26T09:30:00-03:00"></time>
+          <div class="FecharChat" onclick="abrirchat()">x</div>
+          <img class="chatimg" src="./Img/chatWhats/ChatImg.png" alt="IconWhatsappFlutuante">
+          <input type="text" id="nome" pattern="\d{2}/\d{2}/\d{4}" placeholder="Ex: Rodrigo Escobar">
+          <input type="text" id="Assunto">
+          <button id="Enviar" type="hidden" onclick="EnviarWpp()">C</button>
+        </div>
+        <img id="imgwhats" class="ImgWppFlutante" src="./Img/chatWhats/WppFlutuante.png" onclick="abrirchat()" alt="Chat  Flutuante">
+      </div>
+    <script src="./Js/script.js"></script>
+</body>
+</html>
